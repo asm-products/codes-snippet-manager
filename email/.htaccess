@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^email\.icanbeacoder\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.email\.icanbeacoder\.com$
+RewriteRule ^/?$ "http\:\/\/icanbeacoder\.com\:2095" [R=301,L]
+
